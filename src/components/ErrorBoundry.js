@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './ErrorBoundry.css';
 
 class ErrorBoundry extends Component{
     constructor(props) {
@@ -14,7 +15,7 @@ class ErrorBoundry extends Component{
     
     render() {
         if(this.state.hasError){
-            return <h1>Something went wrong</h1>
+            return <h1 className='text-center'>Something went wrong, try again!</h1>
         }else{
             return this.props.children
         }
