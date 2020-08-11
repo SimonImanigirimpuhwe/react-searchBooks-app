@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './SearchBox.css';
+import './BookCard.css';
 import App from './App';
+import ErrorBoundry from './ErrorBoundry';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ErrorBoundry>
+      <App />
+    </ErrorBoundry>
   </React.StrictMode>,
   document.getElementById('root')
 );
