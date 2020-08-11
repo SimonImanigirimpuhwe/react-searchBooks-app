@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SimonImanigirimpuhwe/react-searchBooks-app.git/precache-manifest.8a48d6e9aab70f29da36068ae32dfc27.js"
+  "/SimonImanigirimpuhwe/react-searchBooks-app.git/precache-manifest.6804d4443e325816e70e36e6836f1ee7.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "341ece3d1fb3dced4d60a3a896eb8415",
+    "revision": "40e34018e4dbfb9b843c65c2a12aecd0",
     "url": "/SimonImanigirimpuhwe/react-searchBooks-app.git/index.html"
   },
   {
-    "revision": "1965135eaf7aacac2d8a",
-    "url": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/css/main.2712121e.chunk.css"
+    "revision": "30c3181f687271c9e53e",
+    "url": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/css/main.2cbe490d.chunk.css"
   },
   {
     "revision": "560061baf0f6c624299a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/2.e0cf06d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1965135eaf7aacac2d8a",
-    "url": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/main.509ac9fe.chunk.js"
+    "revision": "30c3181f687271c9e53e",
+    "url": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/main.fce57c10.chunk.js"
   },
   {
     "revision": "d5f43f8a9b3ba33f4ec4",
