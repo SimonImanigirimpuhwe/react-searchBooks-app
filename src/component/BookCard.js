@@ -1,4 +1,5 @@
 import React from 'react';
+import './BookCard.css';
 
 
 const BookCard = ({ title, img, author, page, language, link }) => {
