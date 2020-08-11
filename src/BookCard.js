@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const BookCard = ({ title, img, author, page, language, link }) => {
+    
     return (
         <div className='book-card'>
              <ul>
