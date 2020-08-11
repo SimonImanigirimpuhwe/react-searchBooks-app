@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/css/main.2712121e.chunk.css",
+    "main.js": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/main.509ac9fe.chunk.js",
+    "main.js.map": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/main.509ac9fe.chunk.js.map",
+    "runtime-main.js": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/runtime-main.97b6abbf.js",
+    "runtime-main.js.map": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/runtime-main.97b6abbf.js.map",
+    "static/js/2.e0cf06d8.chunk.js": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/2.e0cf06d8.chunk.js",
+    "static/js/2.e0cf06d8.chunk.js.map": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/2.e0cf06d8.chunk.js.map",
+    "index.html": "/SimonImanigirimpuhwe/react-searchBooks-app.git/index.html",
+    "precache-manifest.8a48d6e9aab70f29da36068ae32dfc27.js": "/SimonImanigirimpuhwe/react-searchBooks-app.git/precache-manifest.8a48d6e9aab70f29da36068ae32dfc27.js",
+    "service-worker.js": "/SimonImanigirimpuhwe/react-searchBooks-app.git/service-worker.js",
+    "static/css/main.2712121e.chunk.css.map": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/css/main.2712121e.chunk.css.map",
+    "static/js/2.e0cf06d8.chunk.js.LICENSE.txt": "/SimonImanigirimpuhwe/react-searchBooks-app.git/static/js/2.e0cf06d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97b6abbf.js",
+    "static/js/2.e0cf06d8.chunk.js",
+    "static/css/main.2712121e.chunk.css",
+    "static/js/main.509ac9fe.chunk.js"
+  ]
+}
