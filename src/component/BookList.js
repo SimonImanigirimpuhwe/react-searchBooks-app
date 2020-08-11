@@ -3,7 +3,9 @@ import BookCard from '../component/BookCard';
 
 
 const BookList  = ({ books }) => {
-    return (
+    return (books.length === 0) ? (<div>
+        <h3 className='tex-center'>Please type somthing in search box!</h3>
+    </div>) :(
         <div className='container'>
             <div className='books'>
                 {

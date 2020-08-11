@@ -66,3 +66,8 @@ span{
     color:darkcyan;
     font-size: 20px;
 }
+.tex-center{
+    text-align: center;
+    font-size: 20px;
+    color:rgba(213, 20, 33, 1);
+}
