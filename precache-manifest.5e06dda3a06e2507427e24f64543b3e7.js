@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e02ce38ddd384f373b01e7488345b88e",
+    "revision": "728d72e63badedca76d71a11da211e61",
     "url": "/react-searchBooks-app/index.html"
   },
   {
-    "revision": "eb4297dcb785fc20cea0",
-    "url": "/react-searchBooks-app/static/css/main.2cbe490d.chunk.css"
+    "revision": "e281f9339799a2b02ea1",
+    "url": "/react-searchBooks-app/static/css/main.05875262.chunk.css"
   },
   {
     "revision": "560061baf0f6c624299a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-searchBooks-app/static/js/2.e0cf06d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb4297dcb785fc20cea0",
-    "url": "/react-searchBooks-app/static/js/main.4dd3a7c4.chunk.js"
+    "revision": "e281f9339799a2b02ea1",
+    "url": "/react-searchBooks-app/static/js/main.d37f0f02.chunk.js"
   },
   {
     "revision": "ca5f905328a8e2e54f85",

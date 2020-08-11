@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-searchBooks-app/static/css/main.2cbe490d.chunk.css",
-    "main.js": "/react-searchBooks-app/static/js/main.4dd3a7c4.chunk.js",
-    "main.js.map": "/react-searchBooks-app/static/js/main.4dd3a7c4.chunk.js.map",
+    "main.css": "/react-searchBooks-app/static/css/main.05875262.chunk.css",
+    "main.js": "/react-searchBooks-app/static/js/main.d37f0f02.chunk.js",
+    "main.js.map": "/react-searchBooks-app/static/js/main.d37f0f02.chunk.js.map",
     "runtime-main.js": "/react-searchBooks-app/static/js/runtime-main.e26fcb41.js",
     "runtime-main.js.map": "/react-searchBooks-app/static/js/runtime-main.e26fcb41.js.map",
     "static/js/2.e0cf06d8.chunk.js": "/react-searchBooks-app/static/js/2.e0cf06d8.chunk.js",
     "static/js/2.e0cf06d8.chunk.js.map": "/react-searchBooks-app/static/js/2.e0cf06d8.chunk.js.map",
     "index.html": "/react-searchBooks-app/index.html",
-    "precache-manifest.a04c11f3f16089f5fb4a35e27edf3d6c.js": "/react-searchBooks-app/precache-manifest.a04c11f3f16089f5fb4a35e27edf3d6c.js",
+    "precache-manifest.5e06dda3a06e2507427e24f64543b3e7.js": "/react-searchBooks-app/precache-manifest.5e06dda3a06e2507427e24f64543b3e7.js",
     "service-worker.js": "/react-searchBooks-app/service-worker.js",
-    "static/css/main.2cbe490d.chunk.css.map": "/react-searchBooks-app/static/css/main.2cbe490d.chunk.css.map",
+    "static/css/main.05875262.chunk.css.map": "/react-searchBooks-app/static/css/main.05875262.chunk.css.map",
     "static/js/2.e0cf06d8.chunk.js.LICENSE.txt": "/react-searchBooks-app/static/js/2.e0cf06d8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e26fcb41.js",
     "static/js/2.e0cf06d8.chunk.js",
-    "static/css/main.2cbe490d.chunk.css",
-    "static/js/main.4dd3a7c4.chunk.js"
+    "static/css/main.05875262.chunk.css",
+    "static/js/main.d37f0f02.chunk.js"
   ]
 }
