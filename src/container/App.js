@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import BookList from '../component/BookList';
-import SearchBox from '../component/SearchBox';
-import Scroll from '../component/Scroll';
+import BookList from '../components/BookList';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
 
 
 
