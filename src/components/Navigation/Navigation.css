@@ -1,0 +1,5 @@
+.credentials  p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}

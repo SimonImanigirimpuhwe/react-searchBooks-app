@@ -1,10 +1,10 @@
 import React from 'react';
-import BookCard from './BookCard';
+import BookCard from '../BookCard/BookCard';
 
 
 const BookList  = ({ result }) => {
     return (result.length === 0) ? (<div>
-        <h3 className='tex-center'>Please type somthing in search box!</h3>
+        <h3 className='tex-center'>Please type something in search box!</h3>
     </div>) :(
         <div className='container'>
             <div className='books'>

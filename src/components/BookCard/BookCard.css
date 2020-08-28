@@ -32,7 +32,7 @@
     width: 30%;
     height: 20px;
     margin-left: 40%;
-    color: red;
+    color: #430206;
     text-align: center;
 }
 .btn{
@@ -66,5 +66,5 @@ span{
 .tex-center{
     text-align: center;
     font-size: 20px;
-    color:rgba(213, 20, 33, 1);
+    color:#430206;
 }
