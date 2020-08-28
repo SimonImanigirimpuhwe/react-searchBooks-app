@@ -2,14 +2,14 @@ import React from 'react';
 import BookCard from './BookCard';
 
 
-const BookList  = ({ books }) => {
-    return (books.length === 0) ? (<div>
+const BookList  = ({ result }) => {
+    return (result.length === 0) ? (<div>
         <h3 className='tex-center'>Please type somthing in search box!</h3>
     </div>) :(
         <div className='container'>
             <div className='books'>
                 {
-                    books.map(book => {
+                    result.map(book => {
                         return (
                         <BookCard  
                             key={book.id} 

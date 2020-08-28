@@ -1,15 +1,20 @@
 import React from 'react';
 import './SearchBox.css';
 
-const SearchBox = ({searchfield, searchChange }) => {
+const SearchBox = ({handleSubmit, onInputChange }) => {
     return (
         <div className='title'>
-            <input 
-            type='search' 
-            id='search' 
-            placeholder='Search for books' 
-            onChange={searchChange}
-            />
+            <h1 className='main-title'>Psychology Books</h1>
+            <form className="input-container">
+                <input 
+                type='search' 
+                id='search' 
+                placeholder='Search for books' 
+                required
+                onChange={onInputChange}
+                />
+                <button onClick={handleSubmit}>Search</button>
+             </form>
         </div>
     );
 }

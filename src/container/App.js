@@ -2,61 +2,63 @@ import React, { Component } from 'react';
 import BookList from '../components/BookList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import Particle from 'react-particles-js';
 
+const backgroundParticles = {
+    particle:{
+        line_linked:{
+            shadow:{
+                enable: true,
+                color:'#3CA9D1',
+                blur: 5
+            }
+        },
+        number:{
+            value:70,
+            density: {
+              enable: true,
+              value_area: 800
+            }
+        }
+    }
+}
 
 
 class App extends Component{
     constructor() {
         super();
       this.state={
-        books: [],
-        searchfield: ''
+        book: '',
+        input: '',
+        result: [],
       }
     }
-    componentDidMount(){
-        const url ='https://www.googleapis.com/books/v1/volumes?q=psychology/'
-        fetch(url)
-            .then(response =>response.json())
-            .then(book => this.state.books) 
-            console.log('componedDidMount') 
+   onInputChange = (e) => {
+       this.setState({input: e.target.value})
     }
-    componentDidUpdate(){
-        if (this.state.searchfield === ''){
-            return;
-        }else{
-            console.log('cool')
-            const url =`https://www.googleapis.com/books/v1/volumes?q=psychology/${this.state.searchfield}`
-            console.log(this.state.searchfield)
-            fetch(url)
-                .then(response =>response.json())
-                .then(book => this.setState({books: book.items}))
-        }
+    displayResult = (result) => {
+        this.setState({result})
+        console.log('state change',this.state.result)
     }
-    
-    componentWillUnmount(){
-        this.setState = (state, callback) => {
-            return;
-        }
+    handleSubmit = (e) => {
+        e.preventDefault();
+        const book = this.state.input;
+        fetch(`https://www.googleapis.com/books/v1/volumes?q=psychology/${book}`)
+        .then(response => response.json())
+        .then(result => {
+            this.displayResult(result.items)
+        })
+        .catch(err => console.log(err))
+        console.log(book)
     }
-    onsearchChange = (e) => {
-       this.setState({searchfield: e.target.value})
-    }
-
    render(){
-       
-           console.log('filtered')
-            const filtteredBook = this.state.books.filter(book =>{
-                if(this.state.books === undefined){
-                    console.log('no book found')
-                }
-                return book.volumeInfo.title.toLowerCase().includes(this.state.searchfield.toLowerCase())
-            }) 
         return (
             <div>
-                <h1 className='title'>Psychology Books</h1>
-                <SearchBox searchChange={this.onsearchChange}/>
+                <Particle className='particle'
+                params={backgroundParticles}/>
+                <SearchBox  onInputChange={this.onInputChange} handleSubmit={this.handleSubmit}/>
                 <Scroll>
-                    <BookList books={filtteredBook}/>
+                    <BookList result={this.state.result}/>
                 </Scroll>
             </div>
             );
