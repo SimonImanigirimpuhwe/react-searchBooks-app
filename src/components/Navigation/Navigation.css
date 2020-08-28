@@ -1,3 +1,8 @@
+.credentials{
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
 .credentials  p:hover{
     text-decoration: underline;
     cursor: pointer;
