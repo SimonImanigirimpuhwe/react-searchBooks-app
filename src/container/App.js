@@ -26,32 +26,37 @@ const backgroundParticles = {
     }
 }
 
-
-class App extends Component{
-    constructor() {
-        super();
-      this.state={
+const initialState = {
         book: '',
         input: '',
         result: [],
         isLoggedIn: false,
         route:'signin',
       }
+
+class App extends Component{
+    constructor() {
+        super();
+      this.state= initialState;
     }
+
    onRouteChange = (route) => {
        if(route === 'register'|| route === 'signin'){
-           this.setState({isLoggedIn: false});
+           this.setState(initialState);
        } else if(route === 'home') {
            this.setState({isLoggedIn: true});
        }
         this.setState({route});
    };
+
    onInputChange = (e) => {
        this.setState({input: e.target.value})
     };
+
     displayResult = (result) => {
         this.setState({result})
     };
+
     handleSubmit = (e) => {
         e.preventDefault();
         const book = this.state.input;
@@ -62,6 +67,7 @@ class App extends Component{
         })
         .catch(err => console.log(err))
     };
+
    render(){
         
     return (
