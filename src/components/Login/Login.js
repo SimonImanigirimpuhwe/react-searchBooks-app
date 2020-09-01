@@ -20,7 +20,7 @@ class Login extends Component {
 
     submitForm = (e) => {
         e.preventDefault();
-        const url = '//https://ps-books-finder.herokuapp.com/login';
+        const url = 'https://ps-books-finder.herokuapp.com/login';
         fetch(url, {
             method: 'POST',
             headers: {

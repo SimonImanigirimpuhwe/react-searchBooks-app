@@ -25,7 +25,7 @@ class Register extends Component {
 
     handleFormSubmit = (e) => {
         e.preventDefault();
-        const url = '//https://ps-books-finder.herokuapp.com/register';
+        const url = 'https://ps-books-finder.herokuapp.com/register';
         fetch(url, {
             method: 'POST',
             headers: {
